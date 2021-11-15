@@ -6,7 +6,12 @@ int tong(int a, int b) {
 int hieu(int a, int b){
 	return (a - b);
 }
-int hieu(int a, int b);
+bool kiemTraChan(int a){
+	if (a % 2 == 0)
+	  return true;
+	else
+	  return false;
+}
 int main()
 {
 	int a, b;
