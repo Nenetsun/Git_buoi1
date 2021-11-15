@@ -6,7 +6,9 @@ int tong(int a, int b) {
 int hieu(int a, int b){
 	return (a - b);
 }
-int hieu(int a, int b);
+long tich(int a, int b){
+	return (a * b);
+}
 int main()
 {
 	int a, b;
@@ -21,6 +23,8 @@ int main()
 	  cout << "\na + b = " << tong(a, b)<<"\n";
 	if (phepToan == "-")
 	  cout << "\na - b = " << hieu(a, b)<<"\n";
+	if (phepToan == "*")
+	  cout << "\na * b = " << tich(a, b)<<"\n";
 	system("pause");
 	return 0;
 }
